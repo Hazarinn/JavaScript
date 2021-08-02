@@ -22,3 +22,6 @@ const getScore = el => el.score
 
 
 console.log(students.map(getScore).map(Math.ceil))
+
+// O array resultante de uma função map, tem por obrigatoriedade.
+// retornar um array do mesmo tamanho do original//
